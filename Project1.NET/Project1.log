@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "ログ ファイル (/LogFile)"
+            Value = "Project1.log"
+        />
+        <Setting
+            Name = "クラス用に生成されたインターフェイス (/GenerateInterfaces)"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "プロジェクト名"
+            Value = "Project1"
+        />
+        <Setting
+            Name = "プロジェクト出力"
+            Value = "Project1.vbproj"
+        />
+        <Setting
+            Name = "ターゲット ディレクトリ (/Out) "
+            Value = "C:\Documents and Settings\eiji\デスクトップ\NC2HP-VB\Project1.NET"
+        />
+        <Setting
+            Name = "プロジェクト パス"
+            Value = "C:\Documents and Settings\eiji\デスクトップ\NC2HP-VB\Project1.vbp"
+        />
+        <Setting
+            Name = "アップグレードされたファイルの種類"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "C:\Documents and Settings\eiji\デスクトップ\NC2HP-VB\Form1.frm"
+        NewPath = "C:\Documents and Settings\eiji\デスクトップ\NC2HP-VB\Project1.NET\Form1.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "C:\Documents and Settings\eiji\デスクトップ\NC2HP-VB\Extract.bas"
+        NewPath = "C:\Documents and Settings\eiji\デスクトップ\NC2HP-VB\Project1.NET\Extract.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "sNCExtract" >
+            <Issue
+                Type = "Runtime"
+                Number = "1033"
+            >配列 varSub の下限が 44 から 0 に変更されました。</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >オブジェクト objBar.Visible の既定プロパティを解決できませんでした。</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >オブジェクト objBar.Max の既定プロパティを解決できませんでした。</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >オブジェクト objBar.Min の既定プロパティを解決できませんでした。</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1041"
+            >Get は、FileGet にアップグレードされ、新しい動作が指定されました。</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbUnicode"
+            >定数 vbUnicode はアップグレードされませんでした。</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >オブジェクト varSub(intN) の既定プロパティを解決できませんでした。</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >オブジェクト udtNCInfo.varDrl_Inf()() の既定プロパティを解決できませんでした。</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+                PME = "Mid"
+            >オブジェクト varSub()() の既定プロパティを解決できませんでした。</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >オブジェクト varSub(intSubNo)(j) の既定プロパティを解決できませんでした。</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >オブジェクト udtNCInfo.varDrl_Inf(intIndex)(0) の既定プロパティを解決できませんでした。</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "C:\Documents and Settings\eiji\デスクトップ\NC2HP-VB\Covert.bas"
+        NewPath = "C:\Documents and Settings\eiji\デスクトップ\NC2HP-VB\Project1.NET\Covert.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "sHPConv" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >オブジェクト typNCInfo.varDrl_Inf(j)(1) の既定プロパティを解決できませんでした。</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+                PME = "CSng"
+            >オブジェクト typNCInfo.varDrl_Inf()() の既定プロパティを解決できませんでした。</Issue>
+        </Section>
+        <Section Name = "sPrtToolList" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >オブジェクト typNCInfo.varDrl_Inf(i)(1) の既定プロパティを解決できませんでした。</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+                PME = "Format"
+            >オブジェクト typNCInfo.varDrl_Inf()() の既定プロパティを解決できませんでした。</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "C:\Documents and Settings\eiji\デスクトップ\NC2HP-VB\StartUP.bas"
+        NewPath = "C:\Documents and Settings\eiji\デスクトップ\NC2HP-VB\Project1.NET\StartUP.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "Main" >
+            <Issue
+                Type = "Compile"
+                Number = "1039"
+                PME = "Load"
+            >Load ステートメント はサポートされていません。</Issue>
+        </Section>
+        <Section Name = "(Declarations)" >
+            <Issue
+                Type = "Runtime"
+                Number = "1047"
+            >Sub Main() が完了したときにアプリケーションは終了します。</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "C:\Documents and Settings\eiji\デスクトップ\NC2HP-VB\SetEnv.bas"
+        NewPath = "C:\Documents and Settings\eiji\デスクトップ\NC2HP-VB\Project1.NET\SetEnv.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "sReadConfig" >
+            <Issue
+                Type = "Runtime"
+                Number = "1041"
+            >Get は、FileGet にアップグレードされ、新しい動作が指定されました。</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbUnicode"
+            >定数 vbUnicode はアップグレードされませんでした。</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >オブジェクト gudtNCInfo().varDrl_Inf(j) の既定プロパティを解決できませんでした。</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1041"
+                PME = "array"
+            >Array に新しい動作が指定されています。</Issue>
+        </Section>
+    </File>
+</UpgradeLog>
+
